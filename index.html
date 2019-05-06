@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Hello World</title>
+    <link rel="stylesheet" TYPE="text/css" HREF="estilos.css">
+    <script type="text/javascript" src="js/funciones.js">
+    </script>
+    <script type="text/javascript">
+        document.write("<h1>Hello World</h1>")
+        console.log("prueba...")
+    </script>
+</head>
+<body onload="saludar('hola giles')">
+    <script type="text/javascript">
+        document.write("Hello World")
+    </script>
+    <noscript>
+        Your browser doesn't support or has disabled JavaScript
+    </noscript>
+    <form name="calculadora">
+        
+        <input type="textfield" name="caja" id=valores value="">
+        <br>
+        <input type="button" value="1" onClick="escribir(this.value)">
+        <input type="button" value="2" onClick="escribir(this.value)">
+        <input type="button" value="3" onClick="escribir(this.value)">
+        <input type="button" value="+" onClick="escribir(this.value)">
+        <br>
+        <input type="button" value="4" onClick="escribir(this.value)">
+        <input type="button" value="5" onClick="escribir(this.value)">
+        <input type="button" value="6" onClick="escribir(this.value)">
+        <input type="button" value="-" onClick="escribir(this.value)">
+        <br>
+        <input type="button" value="7" onClick="escribir(this.value)">
+        <input type="button" value="8" onClick="escribir(this.value)">
+        <input type="button" value="9" onClick="escribir(this.value)">
+        <input type="button" value="*" onClick="escribir(this.value)">
+        <br>
+        <input type="button" value="0" onClick="escribir(this.value)">
+        <input type="reset" value="c">
+        <input type="button" value="/" onClick="escribir(this.value)">
+        <input type="button" value="=" onClick="calculando()">
+    </form>
+</body>
+</html>
